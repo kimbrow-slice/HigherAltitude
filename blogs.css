@@ -64,7 +64,7 @@ p {
 
 /* MEDIA */
 
-@media (max-width:00px) {
+@media (max-width:800px) {
     .img2 {
         width: 100%;
         height: auto;
