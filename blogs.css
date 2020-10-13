@@ -90,6 +90,22 @@ p {
     text-decoration: none;
 }
 
+.tm-title-h3 {
+    color: #FFDF00;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-family: Offside;
+}
+
+.tm-title-h3:hover {
+    color: #b6b6b6;
+    text-decoration: none;
+}
+
 #myBtn {
     background-color: rgb(66, 66, 66);
     border: none;
@@ -101,6 +117,7 @@ p {
     font-size: 16px;
     margin: 0 auto;
     font-family: Offside;
+    outline: none
 }
 
 #more {
@@ -118,6 +135,7 @@ p {
     font-size: 16px;
     margin: 0 auto;
     font-family: Offside;
+    outline: none
 }
 
 a {
