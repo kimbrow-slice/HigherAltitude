@@ -4,15 +4,19 @@ body {
     background-color: #2e3141;
 }
 
-h2 {
+h2,
+h6 {
     color: #b6b6b6;
     text-align: center;
     margin: 25px 0 25px 0;
     padding-bottom: 25px;
+    font-family: Offside;
 }
 
+ul,
 p {
     color: #b6b6b6;
+    font-family: Offside;
 }
 
 .line {
@@ -31,12 +35,13 @@ p {
 }
 
 .tm-blog-h3 {
-    color: #ebbd24;
+    color: #FFDF00;
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 1px;
     padding-bottom: 10px;
     text-decoration: none;
+    font-family: Offside;
 }
 
 .tm-blog-h3:hover {
@@ -51,10 +56,11 @@ p {
     padding: 80px 40px 80px 40px;
     -webkit-transition: all 0.6s ease-in;
     transition: all 0.6s ease-in;
+    font-family: Offside;
 }
 
 .blog-wrapper:hover {
-    border-color: #ebbd24;
+    border-color: #FFDF00;
     text-decoration: none;
 }
 
@@ -69,16 +75,6 @@ p {
 
 /* START FAQ */
 
-.FAQ {
-    border: 1px solid rgb(66, 66, 66);
-    border-radius: 2px;
-    text-align: center;
-    padding: 80px 40px 80px 40px;
-    -webkit-transition: all 0.6s ease-in;
-    transition: all 0.6s ease-in;
-    margin: 40px 0;
-}
-
 .tm-FAQ-h3 {
     color: #ebbd24;
     font-size: 20px;
@@ -86,15 +82,12 @@ p {
     letter-spacing: 1px;
     padding-bottom: 10px;
     text-decoration: none;
+    font-family: Offside;
 }
 
 .tm-FAQ-h3:hover {
     color: #b6b6b6;
     text-decoration: none;
-}
-
-#dots {
-    color: #b6b6b6;
 }
 
 #myBtn {
@@ -104,32 +97,35 @@ p {
     padding: 5px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: block;
     font-size: 16px;
     margin: 0 auto;
+    font-family: Offside;
+}
+
+#more {
+    display: none;
 }
 
 #myBtn:hover {
     background-color: rgb(66, 66, 66);
     border: none;
-    color: #ebbd24;
+    color: #FFDF00;
     padding: 5px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: block;
     font-size: 16px;
     margin: 0 auto;
-}
-
-ul,
-h6,
-p {
-    color: #b6b6b6;
+    font-family: Offside;
 }
 
 a {
-    color: #ebbd24;
+    color: #FFDF00;
 }
+
+
+/* END FAQ */
 
 
 /* MEDIA */
