@@ -1,0 +1,28 @@
+body {
+    background-color: #2e3141;
+}
+
+h2,
+h6 {
+    color:  #FFDF00;
+    text-align: center;
+    margin: 25px 0 25px 0;
+    padding-bottom: 25px;
+    font-family: Offside;
+}
+
+.card-title {
+    color:  #FFDF00; 
+}
+
+.card-text {
+    font-family: Offside;
+}
+
+#about {
+    color: #FFDF00;
+    font-size: 20px;
+    padding: 50px 50px 50px 50px; 
+    font-family: Offside;
+
+}
