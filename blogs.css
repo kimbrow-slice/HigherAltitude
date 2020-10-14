@@ -20,9 +20,8 @@ p {
 }
 
 .line {
-    margin: 25px 0;
+    margin: 25px auto;
     height: .5px;
-    background: #2e3141;
     background: -webkit-gradient(linear, 0 0, 100% 0, from(#2e3141), to(#2e3141), color-stop(50%, #ebbd24));
 }
 
