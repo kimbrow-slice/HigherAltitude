@@ -41,3 +41,32 @@ padding: 20px 20px 20px 20px;
     border-color: #FFDF00;
     text-decoration: none;
 }
+
+.pages {
+color: #2e3141;  
+}
+
+.pages:hover {
+text-decoration: none;
+color: #b6b6b6; 
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #FFDF00;
+    color: #2e3141;
+    font-family: Offside;
+    margin-top: 40px;
+    text-decoration: none;
+    opacity: 70%;
+  }
+
+  .foot {
+      color: #2e3141;
+      text-decoration: none;
+  }
+
+  .fas {
+      color: #2e3141;
+  }
