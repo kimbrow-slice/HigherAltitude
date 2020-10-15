@@ -68,6 +68,11 @@ p {
     border-radius: 20px;
 }
 
+.blogposts {
+    width: 600px;
+    margin: auto 0 auto 350px;
+}
+
 
 /* END BLOG */
 
