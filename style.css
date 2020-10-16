@@ -57,7 +57,7 @@
 }
 .btn {
  font-size: 18px;
- color: #c88cca;
+ color: #5a565a;
  margin: 5px;
  padding: 7px 22px;
  text-decoration: none;
@@ -67,8 +67,8 @@
 
 }
 .btn:hover {
-    background: rgb(163, 167, 170);
-    transition: ;
+    background: rgba(245, 221, 4, 0.425);
+
 }
 
 a{
@@ -118,10 +118,15 @@ color: rgb(251, 255, 254);
 .btn-area {
 
     cursor: pointer;
-    color: rgb(58, 66, 66);
+    color: rgb(245, 213, 7);
     font-size: 16px;
     letter-spacing: 2px;
     text-transform: uppercase;
     padding: 10px 30px;
     border-radius: 5px;
+}
+.high:hover {
+
+    cursor: pointer;
+    color: rgb(241, 226, 13);
 }

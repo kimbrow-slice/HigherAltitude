@@ -1,19 +1,18 @@
 
+* {
+  background-color: #2e3141;
+}
+
 body {
-  font-family: "Inconsolata", monosapce;
-  color: #0d1e2d;
+  font-family: "Offside", monosapce;
+  
 }
 
-a {
-  color: #777;
-}
 
-a:hover {
-  color: #000;
-}
+
 
 h1, h2, h3, h4, h5, h6, .font-heading {
-  font-family: "Raleway", sans-serif;
+  font-family: "Offside", sans-serif;
 }
 
 .section {
@@ -21,7 +20,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 }
 
 .filters a {
-  color: #000;
+  color: rgb(255, 218, 11);
   display: inline-block;
   padding-left: 10px;
   padding-right: 10px;
@@ -39,11 +38,11 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   right: 10px;
   bottom: 0;
   height: 1px;
-  background-color: #000;
+  background-color: rgb(245, 210, 16);
 }
 
 .filters a.active {
-  color: #000;
+  color: rgb(247, 224, 19);
 }
 
 .filters a.active:before {
@@ -53,7 +52,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   right: 10px;
   bottom: 0;
   height: 1px;
-  background-color: #000;
+  background-color: rgb(250, 214, 12);
 }
 
 .item {
@@ -132,7 +131,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 
 .btn {
   font-size: 18px;
-  color: #bd3bc2;
+  color: #c88cca;
   margin: 5px;
   padding: 7px 22px;
   text-decoration: none;
@@ -143,7 +142,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
  }
  .btn:hover {
      background: rgb(163, 167, 170);
-     transition: ;
+    
  }
  
  a{
@@ -175,7 +174,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
  }
  .nav-area {
      cursor: pointer;
-     color: rgb(71, 68, 71);
+     color: rgb(235, 229, 235);
      font-size: 16px;
      letter-spacing: 2px;
      text-transform: uppercase;
@@ -188,7 +187,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
  
  .nav-area li a:hover {
  
- color: rgb(95, 243, 206);
+ color: rgb(251, 255, 254);
  }
  .btn-area {
  
@@ -200,8 +199,10 @@ h1, h2, h3, h4, h5, h6, .font-heading {
      padding: 10px 30px;
      border-radius: 5px;
  }
- 
-
+.gal {
+  font: 100;
+  color: #f5d107;
+}
 
 
 
