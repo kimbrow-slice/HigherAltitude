@@ -47,6 +47,13 @@ a {
     padding: 40px 0 40px 0;
 }
 
+@media (max-width:800px) {
+    .img_resource {
+        width: 100%;
+        height: auto;
+    }
+}
+
 .title {
     color: #FFDF00;
     font-family: Offside;
