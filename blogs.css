@@ -149,14 +149,11 @@ a {
 
 .pages {
     color: #2e3141;
-    font-family: Offside;
 }
 
 .pages:hover {
     text-decoration: none;
-    color: #FFDF00;
-    background-color: #2e3141;
-    padding: 10px;
+    color: #b6b6b6;
 }
 
 footer {
@@ -167,6 +164,7 @@ footer {
     font-family: Offside;
     margin-top: 40px;
     text-decoration: none;
+    opacity: 70%;
 }
 
 .foot {
@@ -196,63 +194,66 @@ footer {
     text-decoration: none;
     border: 1 px solid rgb(15, 10, 8);
     border-radius: 25px;
-}
+   
+   
+   }
+   .btn:hover {
+       background: #b6b6b6;
 
-.btn:hover {
-    background: rgb(163, 167, 170);
-}
-
-a {
-    text-decoration: none;
-}
-
-header {
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 70px;
-}
-
-.nav-area {
-    list-style: none;
-}
-
-.nav-area li {
-    display: inline-block;
-    padding: 0 15px;
-    text-transform: uppercase;
-}
-
-.nav-area li a:hover {
-    color: rgb(29, 28, 27);
-}
-
-.nav-area {
-    cursor: pointer;
-    color: rgb(235, 229, 235);
-    font-size: 16px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-
-.nav-area li a {
-    color: rgb(3, 3, 1);
-}
-
-.nav-area li a:hover {
-    color: rgb(251, 255, 254);
-}
-
-.btn-area {
-    cursor: pointer;
-    color: rgb(58, 66, 66);
-    font-size: 16px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    padding: 10px 30px;
-    border-radius: 5px;
-}
+   }
+   
+   a{
+       text-decoration: none;
+   }
+   header{
+       display: -webkit-flex;
+       display: -moz-flex;
+       display: -ms-flex;
+       display: -o-flex;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 30px 70px;
+   }
+   
+   .nav-area {
+       list-style: none;
+   }
+   
+   .nav-area li {
+       display: inline-block;
+       padding: 0 15px;
+       text-transform: uppercase;
+   }
+   
+   .nav-area li a:hover {
+       color: #FFDF00;
+   }
+   .nav-area {
+       cursor: pointer;
+       color: rgb(241, 218, 11);
+       font-size: 16px;
+       letter-spacing: 2px;
+       text-transform: uppercase;
+   }
+   .nav-area li a {
+   
+       color: #FFDF00;
+   
+   }
+   
+   .nav-area li a:hover {
+   
+   color: #FFDF00;
+   }
+   .btn-area {
+   
+       cursor: pointer;
+       color: rgb(219, 219, 22);
+       font-size: 16px;
+       letter-spacing: 2px;
+       text-transform: uppercase;
+       padding: 10px 30px;
+       border-radius: 5px;
+   }
+  
