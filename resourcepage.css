@@ -1,17 +1,15 @@
-body{
+body {
     background-color: #2e3141;
-
 }
 
 h2,
 h6 {
-    color:  #FFDF00;
+    color: #FFDF00;
     text-align: center;
     margin: 25px 0 25px 0;
     padding-bottom: 25px;
     font-family: Offside;
     text-decoration: none;
-   
 }
 
 p {
@@ -65,102 +63,100 @@ a {
 }
 
 .pages {
-    color: #2e3141;  
-    }
-    
+    color: #2e3141;
+}
+
 .pages:hover {
     text-decoration: none;
-    color: #b6b6b6; 
-    }
+    color: #FFDF00;
+    background-color: #2e3141;
+    padding: 10px;
+}
 
-    footer {
-        text-align: center;
-        padding: 3px;
-        background-color: #FFDF00;
-        color: #2e3141;
-        font-family: Offside;
-        margin-top: 40px;
-        text-decoration: none;
-        opacity: 70%;
-      }
-    
-      .foot {
-          color: #2e3141;
-          text-decoration: none;
-      }
-    
-      .fas {
-          color: #2e3141;
-      }
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #FFDF00;
+    color: #2e3141;
+    font-family: Offside;
+    margin-top: 40px;
+    text-decoration: none;
+}
 
-      .btn {
-        font-size: 18px;
-        color: #c88cca;
-        margin: 5px;
-        padding: 7px 22px;
-        text-decoration: none;
-        border: 1 px solid rgb(15, 10, 8);
-        border-radius: 25px;
-       
-       
-       }
-       .btn:hover {
-           background: rgb(163, 167, 170);
-           transition: ;
-       }
-       
-       a{
-           text-decoration: none;
-       }
-       header{
-           display: -webkit-flex;
-           display: -moz-flex;
-           display: -ms-flex;
-           display: -o-flex;
-           display: flex;
-           justify-content: space-between;
-           align-items: center;
-           padding: 30px 70px;
-       }
-       
-       .nav-area {
-           list-style: none;
-       }
-       
-       .nav-area li {
-           display: inline-block;
-           padding: 0 15px;
-           text-transform: uppercase;
-       }
-       
-       .nav-area li a:hover {
-           color: rgb(29, 28, 27);
-       }
-       .nav-area {
-           cursor: pointer;
-           color: rgb(235, 229, 235);
-           font-size: 16px;
-           letter-spacing: 2px;
-           text-transform: uppercase;
-       }
-       .nav-area li a {
-       
-           color: rgb(3, 3, 1);
-       
-       }
-       
-       .nav-area li a:hover {
-       
-       color: rgb(251, 255, 254);
-       }
-       .btn-area {
-       
-           cursor: pointer;
-           color: rgb(58, 66, 66);
-           font-size: 16px;
-           letter-spacing: 2px;
-           text-transform: uppercase;
-           padding: 10px 30px;
-           border-radius: 5px;
-       }
-       
+.foot {
+    color: #2e3141;
+    text-decoration: none;
+}
+
+.fas {
+    color: #2e3141;
+}
+
+.btn {
+    font-size: 18px;
+    color: #c88cca;
+    margin: 5px;
+    padding: 7px 22px;
+    text-decoration: none;
+    border: 1 px solid rgb(15, 10, 8);
+    border-radius: 25px;
+}
+
+.btn:hover {
+    background: rgb(163, 167, 170);
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 70px;
+}
+
+.nav-area {
+    list-style: none;
+}
+
+.nav-area li {
+    display: inline-block;
+    padding: 0 15px;
+    text-transform: uppercase;
+}
+
+.nav-area li a:hover {
+    color: rgb(29, 28, 27);
+}
+
+.nav-area {
+    cursor: pointer;
+    color: rgb(235, 229, 235);
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.nav-area li a {
+    color: rgb(3, 3, 1);
+}
+
+.nav-area li a:hover {
+    color: rgb(251, 255, 254);
+}
+
+.btn-area {
+    cursor: pointer;
+    color: rgb(58, 66, 66);
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border-radius: 5px;
+}

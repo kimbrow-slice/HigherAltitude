@@ -3,9 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .header {
-    background:  rgba(156, 151, 151, 0.4);
-    height:100vh;
+    background: rgba(156, 151, 151, 0.4);
+    height: 100vh;
 }
 
 .video-background {
@@ -19,62 +20,54 @@
     z-index: -1;
 }
 
-@media (min-aspect-ratio:16/9)
-{
- .video-background
- {
-     width: 100%;
-     height: auto;
- }
-
-
-}
-@media (max-aspect-ratio:16/9)
-{
- .video-background
- {
-     width: auto;
-     height: 100%;
- }
-
-
+@media (min-aspect-ratio:16/9) {
+    .video-background {
+        width: 100%;
+        height: auto;
+    }
 }
 
+@media (max-aspect-ratio:16/9) {
+    .video-background {
+        width: auto;
+        height: 100%;
+    }
+}
 
-.welcome-msg{
+.welcome-msg {
     position: relative;
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Offside" sans-serif;
     color: rgb(243, 238, 233);
     top: 150px;
 }
+
 .welcome-msg {
- font-size: 115px;
- font-weight: 115;
- letter-spacing: 5px;
- margin-bottom:30px;
-
+    font-size: 115px;
+    font-weight: 115;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
 }
+
 .btn {
- font-size: 18px;
- color: #5a565a;
- margin: 5px;
- padding: 7px 22px;
- text-decoration: none;
- border: 1 px solid rgb(15, 10, 8);
- border-radius: 25px;
-
-
+    font-size: 18px;
+    color: #5a565a;
+    margin: 5px;
+    padding: 7px 22px;
+    text-decoration: none;
+    border: 1 px solid rgb(15, 10, 8);
+    border-radius: 25px;
 }
+
 .btn:hover {
     background: rgba(245, 221, 4, 0.425);
-
 }
 
-a{
+a {
     text-decoration: none;
 }
-header{
+
+header {
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
@@ -98,6 +91,7 @@ header{
 .nav-area li a:hover {
     color: rgb(29, 28, 27);
 }
+
 .nav-area {
     cursor: pointer;
     color: rgb(235, 229, 235);
@@ -105,18 +99,16 @@ header{
     letter-spacing: 2px;
     text-transform: uppercase;
 }
+
 .nav-area li a {
-
     color: rgb(3, 3, 1);
-
 }
 
 .nav-area li a:hover {
-
-color: rgb(251, 255, 254);
+    color: rgb(251, 255, 254);
 }
-.btn-area {
 
+.btn-area {
     cursor: pointer;
     color: rgb(245, 213, 7);
     font-size: 16px;
@@ -125,8 +117,8 @@ color: rgb(251, 255, 254);
     padding: 10px 30px;
     border-radius: 5px;
 }
-.high:hover {
 
+.high:hover {
     cursor: pointer;
     color: rgb(241, 226, 13);
 }
