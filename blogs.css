@@ -198,8 +198,8 @@ footer {
    
    }
    .btn:hover {
-       background: rgb(163, 167, 170);
-       transition: ;
+       background: #b6b6b6;
+
    }
    
    a{
@@ -227,33 +227,33 @@ footer {
    }
    
    .nav-area li a:hover {
-       color: rgb(29, 28, 27);
+       color: #FFDF00;
    }
    .nav-area {
        cursor: pointer;
-       color: rgb(235, 229, 235);
+       color: rgb(241, 218, 11);
        font-size: 16px;
        letter-spacing: 2px;
        text-transform: uppercase;
    }
    .nav-area li a {
    
-       color: rgb(3, 3, 1);
+       color: #FFDF00;
    
    }
    
    .nav-area li a:hover {
    
-   color: rgb(251, 255, 254);
+   color: #FFDF00;
    }
    .btn-area {
    
        cursor: pointer;
-       color: rgb(58, 66, 66);
+       color: rgb(219, 219, 22);
        font-size: 16px;
        letter-spacing: 2px;
        text-transform: uppercase;
        padding: 10px 30px;
        border-radius: 5px;
    }
-   
+  

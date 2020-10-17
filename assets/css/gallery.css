@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 }
 
 .filters a {
-  color: rgb(255, 218, 11);
+  color: #f5d107;
   display: inline-block;
   padding-left: 10px;
   padding-right: 10px;
@@ -141,7 +141,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
  
  }
  .btn:hover {
-     background: rgb(163, 167, 170);
+     background: #b6b6b6;
     
  }
  
@@ -170,29 +170,29 @@ h1, h2, h3, h4, h5, h6, .font-heading {
  }
  
  .nav-area li a:hover {
-     color: rgb(29, 28, 27);
+     color: rgb(230, 55, 43);
  }
  .nav-area {
      cursor: pointer;
-     color: rgb(235, 229, 235);
+     color: #ff1e00;
      font-size: 16px;
      letter-spacing: 2px;
      text-transform: uppercase;
  }
  .nav-area li a {
  
-     color: rgb(3, 3, 1);
+     color: #FFDF00;
  
  }
  
  .nav-area li a:hover {
  
- color: rgb(251, 255, 254);
+ color: #FFDF00;
  }
  .btn-area {
  
      cursor: pointer;
-     color: rgb(58, 66, 66);
+     color:#e0dd1c;
      font-size: 16px;
      letter-spacing: 2px;
      text-transform: uppercase;
@@ -203,6 +203,9 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   font: 100;
   color: #f5d107;
 }
+
+
+
 
 
 
