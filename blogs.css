@@ -154,7 +154,9 @@ a {
 
 .pages:hover {
     text-decoration: none;
-    color: #ffffff;
+    color: #FFDF00;
+    background-color: #2e3141;
+    padding: 10px;
 }
 
 footer {
@@ -165,7 +167,6 @@ footer {
     font-family: Offside;
     margin-top: 40px;
     text-decoration: none;
-    opacity: 70%;
 }
 
 .foot {
